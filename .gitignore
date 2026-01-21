@@ -1,0 +1,62 @@
+# IKE-Hunter - Git Ignore File
+
+# Target lists (contain sensitive IP addresses)
+iplist.txt
+ike_targets.txt
+targets.txt
+*.targets
+
+# Output files (contain scan results)
+*.json
+ike_hunter_report.json
+ike-hunter-report.json
+ike_report_*.json
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Development notes
+ROADMAP.md
+TODO.md
+NOTES.md
